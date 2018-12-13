@@ -1,0 +1,576 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+body {
+	margin: 0 auto;
+	font-family: verdana, sans-serif;
+	text-align: center;
+}
+
+.navbar img {
+	float: left;
+	width: 15%;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+}
+
+.navbar {
+	position: absolute;
+	width: 100%;
+	z-index: 500;
+	margin: 0 auto;
+	background-color: rgba(255, 255, 230, 0.8);
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.navbar ul {
+	width: 85%;
+	float: left;
+	text-align: center;
+}
+
+.navbar ul li {
+	float: left;
+	padding-top: 10px;
+	text-align: center;
+	}
+	
+.navbar ul li a {
+	font-size: 12pt;
+	line-height: 45px;
+	padding: 0 10px;
+	margin: 10px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #996600;
+	}
+
+.navbar ul li a:link {
+    color: #996600;
+	}
+
+.navbar ul li a:active {
+	color: #ffcc33;
+	text-decoration: underline;
+}
+
+.navbar ul li a:visited {
+	color: #996600;
+}
+	
+.navbar ul li a:hover {
+	color: #ffcc33;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+#homeback {
+	margin: 0 auto;
+	background-image: url("../images/banner.png");
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	background-attachment: fixed;
+}
+
+.overlay {
+	margin: 0 auto;
+	background-color: rgba(0,0,0, 0.3);
+	text-align: center;
+}
+
+#intro h2 {
+	clear: both;
+	padding-top: 240px;
+	line-height: 80px;
+	color: #ccffcc;
+	font-size: 42pt;
+	text-align: center;
+	margin: 0 auto;
+	width: 70%;
+	font-style: italic;
+	padding-bottom: 80px;
+}
+
+#intro h3 {
+	padding-bottom: 80px;
+	color:  #ffcc33;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 30pt;
+}
+
+#about {
+	background-color: #ffffe6;
+	color: #996600;
+}
+
+#about h2 {
+	text-align: center;
+	margin: 0 auto;
+	font-size: 38pt;
+	padding-top: 40px;
+}
+
+#about p {
+	text-align: center;
+	margin: 0 auto;
+	width: 70%;
+	font-size: 14pt;
+	line-height:22px;
+}
+
+#parone {
+	padding-top: 40px;
+}
+
+#partwo {
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+#buttondiv {
+	margin-top: 20px;
+	padding-bottom: 40px;
+}
+
+#team {
+	background-color: #24651a;
+	color: #ffcc33;
+}
+
+#team h2 {
+	text-align: center;
+	margin: 0 auto;
+	font-size: 38pt;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#teamflex {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 70%;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#team img {
+	border: 5px solid #ffcc33;
+}
+
+figcaption {
+	padding-top: 5px;
+	line-height: 24px;
+	font-size: 16pt;
+	padding-bottom: 40px;
+}
+
+figcaption span {
+	font-size: 14pt;
+	font-style: italic;
+}
+
+#testimonials {
+	background-color: rgba(0,0,0, 0.3);
+	color: #996600;
+}
+
+#testimonials h2 {
+	font-size: 38pt;
+	padding-top: 40px;
+	text-align: center;
+	margin: 0 auto;
+	color: #ccffcc;
+}
+
+#testflex {
+	display: flex;
+	margin: 0 auto;
+	text-align: justify;
+	flex-wrap: wrap;
+	width: 70%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-right: 35px;
+	padding-left: 35px;
+}
+
+#testflex div {
+	flex: 1;
+	background-color: #ccffcc;
+	padding: 20px;
+	margin: 25px;
+	font-size: 12pt;
+	line-height: 22px;
+}
+
+.testimonial {
+	font-style: italic;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	
+}
+
+.name {
+	text-align: right;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+
+
+.qmarktop {
+	font-size: 18pt;
+}
+
+.qmarkbottom {
+	font-size: 18pt;
+}
+
+#getintouch {
+	background-color: #333333;
+	color: #ccffcc;
+}
+
+#getintouch h2 {
+	clear: both;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 38pt;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#getintouch img {
+	height: 20px;
+}
+
+#getinflex {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 70%;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#getinflex div {
+	padding-top: 5px;
+	line-height: 22px;
+	font-size: 12pt;
+	padding-bottom: 40px;
+}
+#getinflex h4 {
+	text-decoration: underline;
+	padding-bottom: 5px;
+}
+
+#trade {
+	font-size: 10pt;
+	color: #999999;
+	text-align: right;
+	padding-right: 200px;
+	padding-bottom: 30px; 
+}
+
+#topstyle {
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+	z-index: 500;
+}
+
+#topstyle img {
+	width: 40px;
+}
+
+.button {
+	background-color: #996600;
+	color: #ccffcc;
+	line-height: 30px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: #996600;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+
+.button:link {
+	background-color: #996600;
+	color: #ccffcc;
+}
+
+.button:active {
+	background-color: #24651a;
+	color: #ffcc33;
+}
+
+.button:visited {
+	background-color: #996600;
+	color: #ccffcc;
+}
+
+.button:hover {
+	background-color: #24651a;
+	color: #ffcc33;
+	cursor: pointer;
+}
+
+
+
+/*_______________________________________________EXPEDITIONS_________________________*/
+
+
+#exback {
+	margin: 0 auto;
+	background-image: url("../images/vietnam.jpg");
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	background-attachment: fixed;
+}
+
+#exsecone h2 {
+	clear: both;
+	padding-top: 220px;
+	color: #ccffcc;
+	font-size: 38pt;
+	text-align: center;
+	margin: 0 auto;
+	width: 70%;
+	padding-bottom: 40px;
+}
+
+#exsecone p {
+	text-align: center;
+	margin: 0 auto;
+	width: 70%;
+	font-size: 14pt;
+	line-height:22px;
+	color: #ccffcc;
+}
+
+#secondpar {
+	padding-bottom: 200px;
+}
+
+#howtojoin {
+	background-color: #ffffe6;
+	color: #996600;
+}
+
+#howtojoin h2 {
+	text-align: center;
+	margin: 0 auto;
+	font-size: 38pt;
+	padding-top: 40px;
+}
+
+#howtojoin p {
+	width: 70%;
+	font-size: 14pt;
+	line-height:24px;
+	margin: 0 auto;
+}
+
+#htjparone {
+	padding-top: 40px;
+	padding-bottom: 10px;
+	width: 70%;
+}
+
+#howtojoin h3 {
+	color: #24651a;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	text-align: left;
+	font-size: 14pt;
+	line-height:22px;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.jamparone {
+	text-align: left;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+.jampartwo {
+	text-align: left;
+	margin: 0 auto;
+	font-size: 12pt;
+}
+
+.jamaparone {
+	text-align: left;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+.jamapartwo {
+	text-align: left;
+	margin: 0 auto;
+	font-size: 12pt;
+	line-height: 24px;
+	padding-bottom: 40px;
+}
+
+.perks {
+	color: #24651a;
+	font-weight: bold;
+}
+
+#howtojoin img {
+	height: 22px;
+	padding-right: 15px;
+}
+
+#upcoming {
+	background-color: rgba(0,0,0, 0.3);
+	padding-bottom: 60px;
+}
+
+#upcoming h2 {
+	padding-top: 40px;
+	color: #ccffcc;
+	font-size: 38pt;
+	text-align: center;
+	margin: 0 auto;
+	width: 70%;
+	padding-bottom: 40px;
+}
+
+#greenbox {
+	width: 70%;
+	margin: 0px auto;
+	background-color: #ccffcc;
+	max-width: 960px;
+	padding: 20px;
+	}
+	
+#boximg {
+	float: left;
+	width: 50%;
+	height: 350px;
+	background-image: url(../images/tombs.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+#boxtext {
+	float: right; 
+	width: 50%;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 18px;
+}
+
+
+#greenbox img {
+	height: 100%;
+}
+
+
+#upcoming h3 {
+	color: #996600;
+	font-size: 14pt;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-weight:bold;
+}
+
+#upcoming h4 {
+	color: #996600;
+	font-size: 13pt;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#upcoming p {
+	padding: 10px;
+	text-align: left;
+	margin: 0 auto;
+	font-size: 12pt;
+	line-height:22px;
+	color: #996600;
+}
+
+
+
+.red {
+	color: red;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+
+#register {
+	margin: 0 auto;
+	background-image: url("../images/banner.png");
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	background-attachment: fixed;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+	#boximg {
+		height: 500px;
+	}
+	
+}
+
+
+@media screen and (max-width: 960px) {
+	#boximg {
+	float: none;
+	width: 100%;
+	}
+	#boxtext {
+	float: none;
+	width: 100%;
+	}
+	
+}
+
+
+
+
+
+
+
+
